@@ -14,9 +14,11 @@ import MapleAnima from 'https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.
 let maple = new MapleAnima()
 
 let box = document.querySelector('.box')
-let h = document.querySelector('h1')
-maple.to(h,{duration:2,y:100,x:60)
-maple.to(h,{duration:2,y:0,x:0,delay:2})
-maple.to(h,{duration:2,y:100,x:60,delay:4})
+
+maple.to(box,{duration:2,y:100,x:60)
+
+maple.to(box,{duration:2,y:0,x:0,delay:2})
+
+maple.to(box,{duration:2,y:100,x:60,delay:4})
 
 
