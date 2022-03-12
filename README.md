@@ -26,9 +26,9 @@ maple.to(box,{duration:2,y:0,x:0,delay:2})
 
 # Functions
 
-to(element,{duration:2,rotate:40})
-fromTo(element,{duration:2,rotate:40},{rotate:80})
-scrollTo(element,{duration:2,rotate:40},{rotate:80})
+to(element,{duration:2,rotate:40})<br>
+fromTo(element,{duration:2,rotate:40},{rotate:80})<br>
+scrollTo(element,{duration:2,rotate:40},{rotate:80})<br>
 
 // inner functions
 
