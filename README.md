@@ -37,13 +37,20 @@ to(element,{duration:2,rotate:40})<br>
 fromTo(element,{duration:2,rotate:40},{rotate:80})<br>
 
 scrollTo(element,{
+
 ease:'ease-out',
+
 duration:1.5,
+
 backgroundColor:'blue',
+
 scrollElement:box,
+
 scrollStart:500,
+
 onLeave:()=>{
     }})
+    
     <br>
 
 // inner functions
