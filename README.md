@@ -6,6 +6,10 @@ Small JS Transition libary base on css transition property, you can animate any 
 
 
 
+# CDN
+
+[ <script src="https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.js" > ]
+
 
 
 
