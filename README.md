@@ -11,9 +11,10 @@ Small JS Transition libary base on css transition property, you can animate any 
 
 # Code Example
 
-// regular import from jsdelivr cdn
-import MapleAnima from 'https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.js'
+// regular import from jsdelivr cdn 
 
+
+import MapleAnima from 'https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.js'
 
 let maple = new MapleAnima()
 
