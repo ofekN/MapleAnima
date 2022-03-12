@@ -9,9 +9,11 @@ Small JS Transition libary base on css transition property, you can animate any 
 
 
 
-#Code Example
+# Code Example
 
+// regular import from jsdelivr cdn
 import MapleAnima from 'https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.js'
+
 
 let maple = new MapleAnima()
 
@@ -22,10 +24,19 @@ maple.to(box,{duration:2,y:100,x:60)
 maple.to(box,{duration:2,y:0,x:0,delay:2})
 
 
+# Functions
+
+to(element,{duration:2,rotate:40})
+fromTo(element,{duration:2,rotate:40},{rotate:80})
+scrollTo(element,{duration:2,rotate:40},{rotate:80})
+
+// inner functions
+
+onComplete,onStart,onLeave
+
+
 <h1>onScroll Transitions</h1>
-<p style="text-decoration:underline;font-weight:700;">Features</p>
-<p style="">onLeave Function</p>
-<p style="">onStart Function</p>
+
 
 ![Alt Text](https://media.giphy.com/media/iYjeH7Z3OyY5EKBqBV/giphy.gif)
 
