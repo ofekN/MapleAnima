@@ -7,7 +7,7 @@ Small CSS&amp;JS Transition Libary
 
 
 
-<h1>Examples</h1>
+<h1>Code Example</h1>
 
 import MapleAnima from 'https://cdn.jsdelivr.net/gh/ofekN/MapleAnima/mapleAnima.js'
 
@@ -28,7 +28,7 @@ maple.to(box,{duration:2,y:0,x:0,delay:2})
 ![Alt Text](https://media.giphy.com/media/iYjeH7Z3OyY5EKBqBV/giphy.gif)
 
 
-<h4>Example Links</h4>
+<h4>Examples Links</h4>
 <a href="https://codepen.io/OfekNakar/pen/Vwrorxy?editors=1011" target="_blank" >onScroll transition example</a>
 
 
